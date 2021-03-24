@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 5rem;
+}
+
+.fixed-bg {
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+}
+
+.bg-1 {
+    background-image: url("media/spin.gif");
+}
+
+.bg-2 {
+    background-image: url("media/baston.jpg");
+
+}
+
+.box1,
+.box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    color: #3d3536;
+}
+
+.box1 {
+    background-color: rgb(248, 218, 47);
+}
+
+.box2 {
+    background: linear-gradient(180deg,cyan, orange, brown);
+}
+
+.box3 {
+    background: linear-gradient(125deg, white, black);
+}
+
+.container {
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+p {
+    line-height: 2;
+}
+
+.txt1 {
+    font-family: 'Ranchers', cursive;
+}
+
+.txt2 {
+    font-family: 'Texturina', serif;
+}
+
+b {
+    color: red;
+}
+
+img {
+    margin: 5% auto;
+}
